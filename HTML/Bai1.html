@@ -2,103 +2,50 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Example Cafe Menu</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
-
-        .menu {
-            border: 1px rgb(189, 183, 183);
-            padding: 20px;
-            width: 300px;
-            margin: 0 auto;
-        }
-
-        h1 {
-            text-align: center;
-        }
-
-        ul {
-            list-style-type: disc;
-            margin-left: 20px;
-        }
-
-        p {
-            text-align: right;
-            font-size: 12px;
-            margin-top: 10px;
-            margin-bottom: 20px;
-        }
-
-        .section-title {
-            border-bottom: 1px solid #000;
-            padding-bottom: 5px;
-            margin-bottom: 10px;
-        }
-
-        .back-to-top {
-            font-size: 12px;
-            text-align: right;
-            margin-top: 10px;
-            margin-bottom: 10px;
-        }
-
-        .vegetarian-note {
-            font-size: 12px;
-            text-align: center;
-            margin-top: 20px;
-        }
-    </style>
+  <title>Example Cafe Menu</title>
 </head>
-<body>
-
-    <div class="menu">
-        <h1>Example Cafe Menu</h1>
-        <p>
-            <a href="#starters">Starters</a> | 
-            <a href="#main-courses">Main Courses</a> | 
-            <a href="#desserts">Desserts</a>
-        </p>
-
-        <div id="starters">
-            <h2 class="section-title">Starters</h2>
-            <ul>
-                <li>Chestnut and Mushroom Goujons <a href="#">(v)</a></li>
-                <li>Goat Cheese Salad <a href="#">(v)</a></li>
-                <li>Honey Soy Chicken Kebabs</li>
-                <li>Seafood Salad</li>
-            </ul>
-            <p class="back-to-top"><a href="#">Back to top</a></p>
-        </div>
-
-        <div id="main-courses">
-            <h2 class="section-title">Main courses</h2>
-            <ul>
-                <li>Spinach and Ricotta Roulade <a href="#">(v)</a></li>
-                <li>Beef Tournados with Mustard and Dill Sauce</li>
-                <li>Roast Chicken Salad</li>
-                <li>Icelandic Cod with Parsley Sauce</li>
-                <li>Mushroom Wellington <a href="#">(v)</a></li>
-            </ul>
-            <p class="back-to-top"><a href="#">Back to top</a></p>
-        </div>
-
-        <div id="desserts">
-            <h2 class="section-title">Desserts</h2>
-            <ul>
-                <li>Lemon Sorbet <a href="#">(v)</a></li>
-                <li>Chocolate Mud Pie <a href="#">(v)</a></li>
-                <li>Pecan Pie <a href="#">(v)</a></li>
-                <li>Selection of Fine Cheeses from Around the World</li>
-            </ul>
-            <p class="back-to-top"><a href="#">Back to top</a></p>
-        </div>
-
-        <p class="vegetarian-note">Items marked with a (v) are suitable for vegetarians.</p>
-    </div>
-
+<body >
+  <header>
+    <h1>Example Cafe Menu</h1>
+  </header>
+  <main>
+    <a href="">Starters| Main Courses | Desserts</a>
+    <section id="starters">
+      <h2>Starters</h2>
+      <ul>
+        <li>Chestnut and Mushroom Goujons <a href="">(v)</a></li>
+        <li>Goat Cheese Salad <a href="">(v)</a></li>
+        <li>Honey Soy Chicken Kebabs</li>
+        <li>Seafood Salad</li>
+      </ul>
+    </section>
+    <a href="#top">Back to top</a>
+    <section id="main-courses">
+      <h2>Main Courses</h2>
+      <ul>
+        <li>Spinach and Ricotta Roulade<a href="">(v)</a></li>
+        <li>Beef Tournados with Mustard and Dill Sauce</li>
+        <li>Roast Chicken Salad</li>
+        <li>Icelandic Cod with Parsley Sauce</li>
+        <li>Mushroom Wellington <a href="">(v)</a></li>
+      </ul>
+    </section>
+    <a href="#top">Back to top</a>
+    <section id="desserts">
+      <h2>Desserts</h2>
+      <ul>
+        <li>Lemon Sorbet <a href="">(v)</a></li>
+        <li>Chocolate Mud Pie <a href="">(v)</a></li>
+        <li>Pecan Pie <a href="">(v)</a></li>
+        <li>Selection of Fine Cheeses from Around the World</li>
+      </ul>
+    </section>
+    <a href="#top">Back to top</a>
+  </main>
+  <footer>
+    <p>Items marked with a (v) are suitable for vegetarians.</p>
+  </footer>
 </body>
 </html>
